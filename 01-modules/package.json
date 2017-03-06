@@ -1,29 +1,34 @@
 {
-  "name": "01-modules",
+  "name": "ue_01",
   "version": "1.0.0",
-  "description": "Second assignment frontend development 1",
-  "main": "index.js",
+  "description": "geilo",
+  "main": "app.js",
   "scripts": {
-    "start": "grunt",
-    "test": "mocha"
+    "test": "test"
   },
-  "author": "Hannes Moser <hannes@impossiblearts.com>",
-  "license": "MIT",
+  "author": "Markus Hauthaler",
+  "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-preset-es2015": "^6.18.0",
     "babelify": "^7.3.0",
-    "grunt": "^0.4.5",
-    "grunt-browserify": "^4.0.1",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-run": "^0.6.0",
+    "browserify": "^14.1.0",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-connect": "^5.0.0",
+    "gulp-copy": "^1.0.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.0.1",
+    "gulp-util": "^3.0.8",
     "handlebars": "^4.0.3",
-    "http-server": "^0.8.5",
-    "load-grunt-tasks": "^3.3.0",
-    "mocha": "^3.1.2",
-    "open-cli": "^1.0.1",
-    "should": "^11.1.1",
-    "time-grunt": "^1.2.1"
+    "hbsfy": "^2.7.0",
+    "jquery": "^3.1.1",
+    "run-sequence": "^1.2.2",
+    "serve-static": "^1.11.1",
+    "page": "^1.7.1",
+    "uglifyify": "^3.0.4",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
